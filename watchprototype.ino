@@ -1,7 +1,7 @@
-#include <SendOnlySoftwareSerial.h>
 #include <TinyWireM.h>
 #include "TinyRTClib.h"
-
+// SendOnlySoftwareSerial used as output on pin 1 to debug, neopixel functions should be disabled while using this
+//#include <SendOnlySoftwareSerial.h> 
 
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
